@@ -64,7 +64,7 @@ async def ping(ctx):
 #     img = qr.make_image(fill='black', back_color='white')
 #     img.save('qr_code.png')
 
-#     await message.channel.send('Here is your QR Code!', file=discord.File(r'/Users/eskrg/Documents/Projects/QRCodeBot/qr_code.png'))
+#     await message.channel.send('Here is your QR Code!', file=discord.File(r'/Users/eskrg/Documents/Projects/QRCodebot/qr_code.png'))
 
 #     await bot.process_commands(message)
 
@@ -85,7 +85,7 @@ async def ping(ctx):
 #     qr.make(fit=True)
 #     img = qr.make_image(fill='black', back_color='white')
 #     img.save('qr_code.png')
-#     await message.channel.send('Here is your QR Code!', file=discord.File(r'/Users/eskrg/Documents/Projects/QRCodeBot/qr_code.png'))
+#     await message.channel.send('Here is your QR Code!', file=discord.File(r'/Users/eskrg/Documents/Projects/QRCodebot/qr_code.png'))
 
 bot.run(TOKEN)
 
