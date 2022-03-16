@@ -47,45 +47,4 @@ async def ping(ctx):
 	# SENDS A MESSAGE TO THE CHANNEL USING THE CONTEXT OBJECT.
 	await ctx.channel.send("pong")
 
-# @bot.event
-# async def on_message(message):
-#     if message.content == 'Here is your QR Code!':
-#         return
-
-#     qr = qrcode.QRCode(
-#         version=1,
-#         box_size=10,
-#         border=5)
-
-#     URL = message.content
-
-#     qr.add_data(URL)
-#     qr.make(fit=True)
-#     img = qr.make_image(fill='black', back_color='white')
-#     img.save('qr_code.png')
-
-#     await message.channel.send('Here is your QR Code!', file=discord.File(r'/Users/eskrg/Documents/Projects/QRCodeBot/qr_code.png'))
-
-#     await bot.process_commands(message)
-
-
-# @client.event
-# async def on_message(message):
-#     if message.author == client.user:
-#         return
-
-#     qr = qrcode.QRCode(
-#         version=1,
-#         box_size=10,
-#         border=5)
-
-#     URL = message.content
-
-#     qr.add_data(URL)
-#     qr.make(fit=True)
-#     img = qr.make_image(fill='black', back_color='white')
-#     img.save('qr_code.png')
-#     await message.channel.send('Here is your QR Code!', file=discord.File(r'/Users/eskrg/Documents/Projects/QRCodeBot/qr_code.png'))
-
 bot.run(TOKEN)
-
